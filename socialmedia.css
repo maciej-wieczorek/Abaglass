@@ -2,15 +2,15 @@
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
 }
-a { 
+aside a { 
    text-decoration: none;
 }
-ul {
+aside ul {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-.container {
+aside .container {
    margin: 0 auto;
    padding: 20px 50px;
    background: white;
