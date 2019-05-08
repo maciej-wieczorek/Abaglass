@@ -12,6 +12,7 @@ body {
 
 .navbar {
     margin-top: 50px;
+    margin-bottom: 30px;
     background-color: red;
     font-size: 20px !important;
     padding: 0 20px 0 80px;
@@ -24,7 +25,7 @@ body {
     display: block;
     padding: 0 !important;
     margin: 0;
-    height: 60px;
+    height: 45px;
 }
 
 .navbar li:hover {
@@ -32,10 +33,10 @@ body {
 }
 
 .navbar li {
-    height: 60px;
+    height: 45px;
     margin: 0 1px;
     padding: 0 15px;
-    padding-top: 12px;
+    padding-top: 7px;
 }
 
 .navbar-toggler:hover {
@@ -43,9 +44,8 @@ body {
 }
 
 a.navbar-brand {
-    padding: 0 15px !important;
-    padding-top: 5px !important;
-    background-color: white !important;
+    background-color: #e5e5e5 !important;
+    padding: 0 20px !important;
 }
 
 .form-inline input, button {
