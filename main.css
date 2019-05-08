@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+.active {
+    background-color: #f06969 !important;
+}
+
 .navbar {
     background-color: red;
     font-size: 20px !important;
@@ -23,16 +27,12 @@ body {
 }
 
 .navbar li:hover {
-    background-color: white;
-}
-
-.navbar li:hover > a {
-    color: black !important;
+    background-color: #f06969;
 }
 
 .navbar li {
     height: 60px;
-    margin: 0;
+    margin: 0 1px;
     padding: 0 15px;
     padding-top: 12px;
 }
@@ -41,14 +41,10 @@ body {
     background-color: #e5e5e5;
 }
 
-a.navbar-brand:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
 a.navbar-brand {
     padding: 0 15px !important;
     padding-top: 5px !important;
+    background-color: white !important;
 }
 
 .form-inline input, button {
