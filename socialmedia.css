@@ -3,7 +3,7 @@
    font-family: "entypo", sans-serif;
 }
 aside a { 
-   text-decoration: none;
+   text-decoration: none !important;
 }
 aside ul {
    list-style: none;
