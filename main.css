@@ -9,3 +9,15 @@ body {
 .navbar {
     background-color: red;
 }
+.oferta
+{
+    list-style-type: circle;
+}
+.italic
+{
+    font-style: italic;
+}
+.pogrubiony1
+{
+    font-weight: bold;
+}
