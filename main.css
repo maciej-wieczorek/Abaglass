@@ -8,15 +8,47 @@ body {
 
 .navbar {
     background-color: red;
+    font-size: 20px !important;
+    padding: 0 20px 0 80px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar a {
     color: white !important;
     display: block;
+    padding: 0 !important;
+    margin: 0;
+    height: 60px;
 }
 
-.navbar-toggler {
+.navbar li:hover {
+    background-color: white;
+}
+
+.navbar li:hover > a {
+    color: black !important;
+}
+
+.navbar li {
+    height: 60px;
+    margin: 0;
+    padding: 0 15px;
+    padding-top: 12px;
+}
+
+.navbar-toggler:hover {
     background-color: #e5e5e5;
+}
+
+a.navbar-brand:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+a.navbar-brand {
+    padding: 0 15px !important;
+    padding-top: 5px !important;
 }
 
 .oferta
