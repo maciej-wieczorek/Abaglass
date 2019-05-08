@@ -11,6 +11,7 @@ body {
 }
 
 .navbar {
+    margin-top: 50px;
     background-color: red;
     font-size: 20px !important;
     padding: 0 20px 0 80px;
