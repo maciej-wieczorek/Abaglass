@@ -11,8 +11,12 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: white !important;
     display: block;
+}
+
+.navbar-toggler {
+    background-color: #e5e5e5;
 }
 
 .oferta
