@@ -1,11 +1,13 @@
 ﻿<?php 
-        $csvFile = file('images/phocagallery/images.csv');
-        $data = [];
-        foreach ($csvFile as $line) {
-            $data[] = str_getcsv($line);
-        }
-        for ($i = 0; $i < 60; $i++)
-        {
-            echo $data[i];
+        $row = 1;
+        if (($handle = fopen("images/phocagallery/images.csv", "r")) !== FALSE) {
+          while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);
+            $row++;
+            for ($c=0; $c < $num; $c++) {
+                echo $data[$c] . "<br />\n";
+            }
+          }
+          fclose($handle);
         }
 ?>
