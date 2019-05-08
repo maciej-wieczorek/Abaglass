@@ -18,7 +18,7 @@ aside .container {
 #sticky-social {
    right: 0;
    position: fixed;
-   top: 150px;
+   bottom: 100px;
 }
 #sticky-social a {
    background: #333;
