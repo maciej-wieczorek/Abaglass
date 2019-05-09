@@ -6,9 +6,7 @@ body {
     color: white;
 }
 
-footer {
-    text-align: center;
-}
+
 
 .active {
     background-color: #f06969 !important;
@@ -80,6 +78,7 @@ footer
     position: relative;
     bottom: 3px;
     width: 100%;
+    text-align: center;
 }
 .footer img
 {
