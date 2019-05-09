@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+.container-fluid, .navbar {
+    padding: 0 7% !important;
+}
+
 .active {
     background-color: #f06969 !important;
 }
@@ -24,7 +28,8 @@ body {
     color: white !important;
     display: block;
     height: 45px;
-    padding: 0 15px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 .navbar li:hover {
@@ -33,7 +38,7 @@ body {
 
 .navbar li {
     height: 45px;
-    margin: 0 1px;
+    margin: 0;
 }
 
 .navbar-toggler:hover {
@@ -43,6 +48,13 @@ body {
 a.navbar-brand {
     background-color: #e5e5e5 !important;
     margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+header img {
+    height: 45px;
 }
 
 .form-inline input, button {
@@ -86,14 +98,6 @@ footer
 }
 .przerwa 
 {
-    border-radius: 5px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.przerwa1
-{
-    width: 100%;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
