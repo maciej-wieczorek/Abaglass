@@ -50,9 +50,9 @@ body {
 
 .navbar li:hover {
     background-color: #f06969;
-    -webkit-transition: background-color 300ms linear;
-    -ms-transition: background-color 300ms linear;
-    transition: background-color 300ms linear;
+    -webkit-transition: background-color 175ms linear;
+    -ms-transition: background-color 175ms linear;
+    transition: background-color 175ms linear;
 }
 
 .navbar-toggler:hover {
