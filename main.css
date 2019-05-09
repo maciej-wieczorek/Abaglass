@@ -10,10 +10,6 @@ body {
     background-color: #f06969 !important;
 }
 
-.container {
-    padding: 0 !important;
-}
-
 .navbar {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -47,7 +43,6 @@ body {
 
 a.navbar-brand {
     background-color: #e5e5e5 !important;
-    padding: 0 !important;
     margin: 0 !important;
 }
 
