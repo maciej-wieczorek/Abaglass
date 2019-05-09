@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+footer {
+    text-align: center;
+}
+
 .active {
     background-color: #f06969 !important;
 }
