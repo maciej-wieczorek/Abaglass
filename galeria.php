@@ -48,7 +48,7 @@
         </div>
       </nav>
     </header>
-  <div class="container-fluid ">
+  <div class="container-fluid">
     <section>
       <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
