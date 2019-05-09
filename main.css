@@ -25,7 +25,6 @@ body {
     display: block;
     height: 45px;
     padding: 0 15px !important;
-    padding-top: 7px !important;
 }
 
 .navbar li:hover {
