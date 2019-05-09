@@ -36,7 +36,7 @@
               <a class="nav-link" href="oferta.html"> Oferta </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="galeria.html"> Galeria </a>
+              <a class="nav-link" href="galeria.php"> Galeria </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kontakt.html"> Kontakt </a>
@@ -128,6 +128,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script>
+  var touchSensitivity = 5;
+$(".carousel").on("touchstart", function (event) {
+    var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function (event) {
+        var xMove = event.originalEvent.touches[0].pageX;
+        if (Math.floor(xClick - xMove) > touchSensitivity) {
+            $(this).carousel('next');
+        } else if (Math.floor(xClick - xMove) < -(touchSensitivity)) {
+            $(this).carousel('prev');
+        }
+    });
+    $(".carousel").on("touchend", function () {
+        $(this).off("touchmove");
+    });
+});</script>
 </body>
 
 </html>
