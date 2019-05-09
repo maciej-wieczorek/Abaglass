@@ -43,13 +43,16 @@ body {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 
-.navbar li:hover {
-    background-color: #f06969;
-}
-
 .navbar li {
     height: 45px;
     margin: 0;
+}
+
+.navbar li:hover {
+    background-color: #f06969;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
 }
 
 .navbar-toggler:hover {
