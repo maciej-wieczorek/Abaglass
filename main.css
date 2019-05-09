@@ -10,6 +10,10 @@ body {
     background-color: #f06969 !important;
 }
 
+.container {
+    padding: 0 !important;
+}
+
 .navbar {
     margin-top: 50px;
     margin-bottom: 30px;
