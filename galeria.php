@@ -156,13 +156,16 @@
       <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
     </ul>
   </aside>
-  <!--Stopka tutaj-->
-  <footer>
-    <hr class="przerwa">
-    <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png"></a>
-    <span class="footertext">&copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek
-      Matuszewski</span>
-  </footer>
+    <!--Stopka tutaj-->
+    <footer>
+      <hr class="przerwa">
+      <div class="footer_logo">
+        <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png"></a>
+      </div>
+      <div class="footer_text">
+        &copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek Matuszewski</p>
+      </div>
+    </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
