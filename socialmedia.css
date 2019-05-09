@@ -62,7 +62,7 @@ aside .container {
    object-fit: cover;
    height: 10vw;
  }
- 
+
  .container .gallery a:hover img {
    -webkit-transform: scale(1.05) !important;
    -moz-transform: scale(1.05) !important;

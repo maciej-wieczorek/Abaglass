@@ -48,7 +48,7 @@
         </div>
       </nav>
     </header>
-  <div class="container-fluid px-5">
+  <div class="container-fluid ">
     <section>
       <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
@@ -95,6 +95,7 @@
       </div>
       <!--Treść strony tutaj-->
       <!--tu bedzie jakis skrypcik na fotogalerie-->
+      <div class="container">
       <div class="gallery">
         <?php 
         $image_extensions = array("png","jpg","jpeg","gif","PNG","JPG","JPEG","GIF");
