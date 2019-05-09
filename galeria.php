@@ -13,9 +13,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <!--Zajebiste menu tutaj-->
-    <header>
+  <!--Zajebiste menu tutaj-->
+  <header>
       <nav class="navbar navbar-light bg-nav navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
           <img src="img/logo.png" class="d-inline-block mr-1 align-middle " alt="">
@@ -49,6 +48,7 @@
         </div>
       </nav>
     </header>
+  <div class="container-fluid px-5">
     <section>
       <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
