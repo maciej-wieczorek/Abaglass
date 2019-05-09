@@ -95,6 +95,7 @@
       </div>
       <!--Treść strony tutaj-->
       <!--tu bedzie jakis skrypcik na fotogalerie-->
+      <div class="container">
       <div class="gallery">
         <?php 
         $image_extensions = array("png","jpg","jpeg","gif","PNG","JPG","JPEG","GIF");
