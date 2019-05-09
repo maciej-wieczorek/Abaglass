@@ -163,7 +163,7 @@
         <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png" class="_resimage"></a>
       </div>
       <div class="footer_text">
-        &copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek Matuszewski</p>
+        <p>&copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek Matuszewski</p>
       </div>
     </footer>
   </div>

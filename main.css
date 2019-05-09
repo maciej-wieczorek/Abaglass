@@ -87,13 +87,12 @@ footer
     bottom: 3px;
     width: 100%;
     text-align: center;
-}
-.footer_logo{
-    float: left;
+    justify-content: center;
 }
 .footer_text{
     height: 128px;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 .footer img
 {
