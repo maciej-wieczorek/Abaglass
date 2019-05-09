@@ -43,7 +43,7 @@
         </div>
       </nav>
     </header>
-    <section class="mr-5 ml-5">
+    <section>
       <!--Przewijane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
         <div class="carousel-inner">
@@ -132,11 +132,12 @@
       </div>
       <aside id="sticky-social">
         <ul>
-          <li><a href="#" class="entypo-facebook" target="_blank"></a></li>
+          <li><a href="https://www.facebook.com/abaglass/" class="entypo-facebook" target="_blank"></a></li>
           <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
         </ul>
       </aside>
     </section>
+    <!--Stopka tutaj-->
     <footer>
       <hr class="przerwa">
       <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png"></a>
