@@ -76,6 +76,13 @@ footer
     width: 100%;
     text-align: center;
 }
+.footer_logo{
+    float: left;
+}
+.footer_text{
+    height: 128px;
+    vertical-align: middle;
+}
 .footer img
 {
     opacity: 0.5;
@@ -87,11 +94,6 @@ footer
 .przerwa 
 {
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.footertext
-{
     margin-left: auto;
     margin-right: auto;
 }
