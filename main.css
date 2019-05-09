@@ -108,10 +108,27 @@ footer
     margin-left: auto;
     margin-right: auto;
 }
+
+#_resimage {
+    width: 100%; 
+    height: 100%;
+}
+
 ._resimage {
     width: 100%;
     height: 100%;
+    max-width: 250px;
 }
+
+@media  only screen and (max-width: 500px)
+{
+    ._resimage {
+        width: 100%;
+        height: 100%;
+        max-width: 150px;
+    }
+}
+
 .carousel-caption
 {
     position: absolute;
@@ -129,9 +146,4 @@ footer
     color: #fff;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 1) !important;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000 !important;
-}
-#_resimage
-{
-    margin-left: auto;
-    margin-right: auto;
 }
