@@ -103,6 +103,7 @@ footer {
     height: 128px;
     display: flex;
     align-items: center;
+    font-size: 12px;
 }
 
 .footer img {
