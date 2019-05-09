@@ -63,6 +63,27 @@ aside .container {
    height: 10vw;
  }
 
+ @media only screen and (max-width: 380px) {
+    .container .gallery a img {
+       min-width: 120px;
+       min-height: 120px;
+    }
+ }
+
+ @media only screen and (min-width: 381px) and (max-width: 550px) {
+   .container .gallery a img {
+      min-width: 130px;
+      min-height: 130px;
+   }
+ }
+
+ @media only screen and (min-width: 551px) and (max-width: 800px) {
+   .container .gallery a img {
+      min-width: 140px;
+      min-height: 140px;
+   }
+ }
+
  .container .gallery a:hover img {
    -webkit-transform: scale(1.05) !important;
    -moz-transform: scale(1.05) !important;
