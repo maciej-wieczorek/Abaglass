@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+.container-fluid, .navbar {
+    padding: 0 7% !important;
+}
+
 .active {
     background-color: #f06969 !important;
 }
