@@ -1,21 +1,27 @@
 ﻿<!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aba Glass - Galeria</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" type="text/css" href="socialmedia.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aba Glass - Galeria</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="socialmedia.css">
+</head>
+
+<body>
+  <div class="container">
+    <!--Zajebiste menu tutaj-->
     <header>
       <nav class="navbar navbar-light bg-nav navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
           <img src="img/logo.png" class="d-inline-block mr-1 align-middle " alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+          aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mainmenu">
@@ -44,23 +50,38 @@
       </nav>
     </header>
     <section>
-      <!--Przewijane obrazki tutaj-->
+      <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item">
             <img class="d-block w-100" src="images/1.png" alt="Slide">
+            <div class="carousel-caption">
+              <p class="podpis">Sprzedaż i montaż szyb samochodowych</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="images/2.png" alt="Slide">
+            <div class="carousel-caption">
+              <p class="podpis">Na życzenie istnieje możliwość dojazdu do klienta</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="images/3.png" alt="Slide">
+            <div class="carousel-caption">
+              <p class="podpis">Profesjonalne przyciemnianie szyb</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="images/4.png" alt="Slide">
+            <div class="carousel-caption">
+              <p class="podpis">Zapewniamy dożywotnią szczelność spoiny</p>
+            </div>
           </div>
           <div class="carousel-item active">
             <img class="d-block w-100" src="images/5.png" alt="Slide">
+            <div class="carousel-caption">
+              <p class="podpis">Zapraszamy do zapoznania się z naszą ofertą</p>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -72,14 +93,13 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <!--Treść strony tutaj-->
       <!--tu bedzie jakis skrypcik na fotogalerie-->
-      <div class='container'>
-        <div class="gallery">
-        
-         <?php 
-         $image_extensions = array("png","jpg","jpeg","gif","PNG","JPG","JPEG","GIF");
+      <div class="gallery">
+        <?php 
+        $image_extensions = array("png","jpg","jpeg","gif","PNG","JPG","JPEG","GIF");
        
-         $dir = 'images/phocagallery/';
+        $dir = 'images/phocagallery/';
 
         $dir_alt_l = "images/phocagallery/thumbs/phoca_thumb_l_";
         $dir_alt_m = "images/phocagallery/thumbs/phoca_thumb_m_";
@@ -107,16 +127,14 @@
                 in_array($thumbnail_ext,$image_extensions) && 
                 in_array($image_ext,$image_extensions)){
           ?>
-       
-              <a href="<?php echo $image_path; ?>">
-               <img src="<?php echo $thumbnail_path; ?>" alt="" title=""/>
-              </a>
-              <?php
-       
-              if( $count%4 == 0){
-              ?>
-                <div class="clear"></div>
-              <?php 
+          <a href="<?php echo $image_path; ?>">
+            <img src="<?php echo $thumbnail_path; ?>" alt="" title="" />
+          </a>
+          <?php
+            if( $count%4 == 0){
+          ?>
+          <div class="clear"></div>
+          <?php
               }
               $count++;
              }
@@ -128,31 +146,37 @@
          }
         ?>
         </div>
-       </div>
       </div>
-      <aside id="sticky-social">
-        <ul>
-          <li><a href="https://www.facebook.com/abaglass/" class="entypo-facebook" target="_blank"></a></li>
-          <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
-        </ul>
-      </aside>
     </section>
-    <!--Stopka tutaj-->
-    <footer>
-      <hr class="przerwa">
-      <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png"></a>
-      <span class="footertext">&copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek Matuszewski</span>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    
-    <link href='lightbox/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="lightbox/dist/simple-lightbox.js"></script> 
-    <script type='text/javascript'>
-      $(document).ready(function() {
-        var gallery = $('.gallery a').simpleLightbox();
-      });
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <aside id="sticky-social">
+    <ul>
+      <li><a href="https://www.facebook.com/abaglass/" class="entypo-facebook" target="_blank"></a></li>
+      <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
+    </ul>
+  </aside>
+  <!--Stopka tutaj-->
+  <footer>
+    <hr class="przerwa">
+    <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png"></a>
+    <span class="footertext">&copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek
+      Matuszewski</span>
+  </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <link href='lightbox/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="lightbox/dist/simple-lightbox.js"></script>
+  <script type='text/javascript'>
+    $(document).ready(function () {
+      var gallery = $('.gallery a').simpleLightbox();
+    });
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
