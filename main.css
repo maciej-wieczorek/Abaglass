@@ -127,7 +127,7 @@ footer
     background: rgba(0,0,0,0.4);
 }
 .podpis {
-
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85) !important;
-
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 1) !important;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000 !important;
 }
