@@ -2,11 +2,13 @@ body {
     color: black;
     background: #e5e5e5;
 }
+
 #menu {
     color: white;
 }
 
-.container-fluid, .navbar {
+.container-fluid,
+.navbar {
     padding: 0 7% !important;
 }
 
@@ -57,7 +59,8 @@ header img {
     height: 45px;
 }
 
-.form-inline input, button {
+.form-inline input,
+button {
     background-color: #e5e5e5 !important;
 }
 
@@ -65,51 +68,51 @@ header img {
     background-color: #d4d4d4 !important;
 }
 
-.oferta
-{
+.oferta {
     list-style-type: circle;
 }
-.italic
-{
+
+.italic {
     font-style: italic;
 }
-.pogrubiony1
-{
+
+.pogrubiony1 {
     font-weight: bold;
 }
-main
-{
+
+main {
     text-align: center;
 }
-footer
-{
+
+footer {
     position: relative;
     bottom: 3px;
     width: 100%;
     text-align: center;
 }
-.footer_text{
+
+.footer_text {
     height: 128px;
     display: flex;
     align-items: center;
 }
-.footer img
-{
+
+.footer img {
     opacity: 0.5;
 }
-.footer img:hover
-{
+
+.footer img:hover {
     opacity: 1;
 }
-.przerwa 
-{
+
+.przerwa {
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #_resimage {
-    width: 100%; 
+    width: 100%;
     height: 100%;
 }
 
@@ -119,17 +122,16 @@ footer
     max-width: 250px;
 }
 
-@media  only screen and (max-width: 500px)
-{
+@media only screen and (max-width: 500px) {
     ._resimage {
         width: 100%;
         height: 100%;
         max-width: 150px;
+        max-height: 70px;
     }
 }
 
-.carousel-caption
-{
+.carousel-caption {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -139,8 +141,9 @@ footer
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
+
 .podpis {
     color: #fff;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 1) !important;

@@ -159,11 +159,13 @@
     <!--Stopka tutaj-->
     <footer>
       <hr class="przerwa">
-      <div class="footer_logo">
-        <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png" class="_resimage"></a>
-      </div>
-      <div class="footer_text">
-        <p>&copy; Aba Glass 2018 Łukasz Wolniak, Łukasz Nolka, Michał Roszyk & Leszek Matuszewski</p>
+      <div class="row">
+        <div class="col-6 col-md-5 col-lg-4 footer_logo">
+          <a class="footer" href="http://opentechnologies.pl"><img src="img/logoopen.png" class="_resimage"></a>
+        </div>
+        <div class="col-6 col-md-7 col-lg-8 footer_text">
+           <p>&copy; Aba Glass 2019 Paweł&nbsp;Albanowski, Adrian&nbsp;Ciborski, Szymon&nbsp;Głowacki, Jakub&nbsp;Hemmerling, Mikołaj&nbsp;Marcińczak &&nbsp;Maciej&nbsp;Wieczorek</p>
+        </div>
       </div>
     </footer>
   </div>
