@@ -40,6 +40,7 @@ body {
     height: 45px;
     padding-left: 15px !important;
     padding-right: 15px !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .navbar li:hover {
@@ -152,4 +153,9 @@ footer {
     color: #fff;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 1) !important;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000 !important;
+}
+.indekslist
+{
+    list-style-position: inside;
+    list-style-type: circle;
 }
