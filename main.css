@@ -12,6 +12,14 @@ body {
     padding: 0 7% !important;
 }
 
+.container-fluid {
+    text-align: center;
+}
+
+.oferta {
+    text-align: left !important;
+}
+
 .active {
     background-color: #f06969 !important;
 }
@@ -79,10 +87,6 @@ button {
 
 .pogrubiony1 {
     font-weight: bold;
-}
-
-main {
-    text-align: center;
 }
 
 footer {
