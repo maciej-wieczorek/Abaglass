@@ -15,39 +15,40 @@
 <body>
   <!--Zajebiste menu tutaj-->
   <header>
-      <nav class="navbar navbar-light bg-nav navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" class="d-inline-block mr-1 align-middle " alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
-          aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainmenu">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"> Start </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="onas.html"> O nas </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="oferta.html"> Oferta </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="galeria.php"> Galeria </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kontakt.html"> Kontakt </a>
-            </li>
-          </ul>
-          <form class="form-inline">
-            <input class="form-control mr-1" type="search" placeholder="Szukaj..." aria-label="Wyszukaj">
-            <button class="btn btn-light" type="submit">Szukaj</button>
-          </form>
-        </div>
-      </nav>
-    </header>
+    <nav class="navbar navbar-light bg-nav navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" class="d-inline-block mr-1 align-middle " alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+        aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainmenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> Start </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onas.html"> O nas </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oferta.html"> Oferta </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="galeria.php"> Galeria </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html"> Kontakt </a>
+          </li>
+        </ul>
+        <form class="form-inline" action="https://google.com/search" method="get">
+          <input type="hidden" name="sitesearch">
+          <input class="form-control mr-1" type="search" name="q" placeholder="Szukaj..." aria-label="Wyszukaj">
+          <button class="btn btn-light" type="submit">Szukaj</button>
+        </form>
+      </div>
+    </nav>
+  </header>
   <div class="container-fluid">
     <section>
       <!--Przesuwane obrazki tutaj-->
@@ -96,8 +97,8 @@
       <!--Treść strony tutaj-->
       <!--tu bedzie jakis skrypcik na fotogalerie-->
       <div class="container">
-      <div class="gallery">
-        <?php 
+        <div class="gallery">
+          <?php 
         $image_extensions = array("png","jpg","jpeg","gif","PNG","JPG","JPEG","GIF");
        
         $dir = 'images/phocagallery/';
@@ -156,18 +157,20 @@
       <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
     </ul>
   </aside>
-    <!--Stopka tutaj-->
-    <footer>
-      <hr class="przerwa">
-      <div class="row">
-        <div class="col-6 col-md-5 col-lg-4 footer_logo">
-          <a class="footer" href="http://opentechnologies.pl" target="_blank"><img src="img/logoopen.png" class="_resimage"></a>
-        </div>
-        <div class="col-6 col-md-7 col-lg-8 footer_text">
-           <p>&copy; Aba Glass 2019 Paweł&nbsp;Albanowski, Adrian&nbsp;Ciborski, Szymon&nbsp;Głowacki, Jakub&nbsp;Hemmerling, Mikołaj&nbsp;Marcińczak &&nbsp;Maciej&nbsp;Wieczorek</p>
-        </div>
+  <!--Stopka tutaj-->
+  <footer>
+    <hr class="przerwa">
+    <div class="row">
+      <div class="col-6 col-md-5 col-lg-4 footer_logo">
+        <a class="footer" href="http://opentechnologies.pl" target="_blank"><img src="img/logoopen.png"
+            class="_resimage"></a>
       </div>
-    </footer>
+      <div class="col-6 col-md-7 col-lg-8 footer_text">
+        <p>&copy; Aba Glass 2019 Paweł&nbsp;Albanowski, Adrian&nbsp;Ciborski, Szymon&nbsp;Głowacki,
+          Jakub&nbsp;Hemmerling, Mikołaj&nbsp;Marcińczak &&nbsp;Maciej&nbsp;Wieczorek</p>
+      </div>
+    </div>
+  </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
