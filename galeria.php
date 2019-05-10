@@ -49,7 +49,7 @@
       </div>
     </nav>
   </header>
-  <div class="container-fluid">
+  <div class="container">
     <section>
       <!--Przesuwane obrazki tutaj-->
       <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
@@ -154,7 +154,6 @@
   <aside id="sticky-social">
     <ul>
       <li><a href="https://www.facebook.com/abaglass/" class="entypo-facebook" target="_blank"></a></li>
-      <li><a href="#" class="entypo-twitter" target="_blank"></a></li>
     </ul>
   </aside>
   <!--Stopka tutaj-->
